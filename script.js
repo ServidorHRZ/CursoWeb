@@ -25,7 +25,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
         const username = users[accessCode];
         alert(`¡Bienvenid@, ${username}!`); // Mostrar alerta con el nombre
         localStorage.setItem('username', username); // Guardar nombre en localStorage
-        window.location.href = 'Inicio.html'; // Redirigir a inicio.html
+        window.location.href = 'inicio.html'; // Redirigir a inicio.html
     } else {
         alert('Código de acceso inválido. Inténtalo de nuevo.');
     }
