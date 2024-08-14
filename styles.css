@@ -42,7 +42,7 @@ label {
     text-align: left;
 }
 
-input[type="text"] {
+input[type="password"] {
     padding: 10px;
     margin-bottom: 16px;
     border: 1px solid #ccc;
